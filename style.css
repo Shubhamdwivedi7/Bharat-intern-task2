@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+    /* color: red; */
+}
+
+body {
+    text-align: center;
+    /* background-image: linear-gradient(120deg, #94e3ee, #0af1f1); */
+    background-image: url("lightning-thunder.gif");
+    background-size: cover;
+    /* height: max-content; */
+    min-height: 100vh;
+    color: black;
+}
+
+h1 {
+    /* background-image: url("aesthetic.gif");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* color: black; */
+    font-size: 5rem;
+    padding: 2rem;
+    /* font-weight: 700; */
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+label ,input, .celsius, .fahrenheit, .kelvin{
+    display: inline-block;
+}
+
+input {
+    height: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: .25rem;
+}
+
+.temp_convert {
+    margin-top: 2rem;
+    width: 100%;
+    /* padding: 100px; */
+    display: inline-block;
+
+}
+
+.celsius ,.fahrenheit{
+    margin: 2rem;
+}
